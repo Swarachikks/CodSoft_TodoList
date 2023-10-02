@@ -1,0 +1,80 @@
+button {
+    background-color:azure;
+    width: 100px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 3.2px solid ;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 17px;
+    text-align:center;
+  }
+
+  /* button-1 {
+    width: 70px;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 25px;
+    font-size: 17px;
+    margin-top: 12px;
+    text-align:right;
+  } */
+
+input {
+    background-color: gainsboro;
+    text-align:center;
+    width: 600px;
+    border: 3px solid;
+    height: 1.38cm;
+    font-size: 25px;
+    margin: auto;
+    border-radius: 120px;
+}
+
+body {
+    flex: 0.7;
+    background-color:blueviolet;
+    max-width: 1200px;
+    text-align: center;
+    margin: 125px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.task {
+    background-color:bisque;
+    max-width: 580px;
+    display: flex;
+    flex: 0.8;
+    justify-content: space-between;
+     padding: 10px;
+    border: 3px solid;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  #taskname {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .Remove {
+    flex: 0.2;
+    width: 70px;
+    padding: 4px 5px;
+    cursor: pointer;
+  }
+
+.box {
+    width: 800px;
+    height: 800px;
+    border: 4px solid black;
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+  }
